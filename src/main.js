@@ -25,6 +25,8 @@ const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height)
 camera.position.z = 3
 scene.add(camera)
 
+scene.background = new THREE.Color(0xffffff)
+
 // Renderer
 const renderer = new THREE.WebGLRenderer({
   canvas: canvas,
