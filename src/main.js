@@ -13,7 +13,7 @@ const sizes = {
 const scene = new THREE.Scene()
 
 // Object
-const cubeGeometry = new THREE.BoxGeometry(1, 1, 1)
+const cubeGeometry = new THREE.BoxGeometry(2, 2, 2)
 const cubeMaterial = new THREE.MeshBasicMaterial({
   color: '#ff0000',
 })
